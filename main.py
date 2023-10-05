@@ -215,6 +215,7 @@ if __name__ == "__main__":
             world[x][y][3] = int(item['face'])
             world[x][y][4] = int(item['overlay'])
 
+        model.to(device)
         model.eval()  # 设置为评估模式
         with torch.no_grad():
             # 将数据移动到合适的设备上
