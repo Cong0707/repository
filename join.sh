@@ -1,1 +1,1 @@
-curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn K3S_URL=https://new.xem8k5.top:6443 K3S_TOKEN="K10c3088477a5d7a16321188c718ea14296fe8d93f430dbed8aa87c64cd5f51af86::server:bc54ddf7e33671e60e7b7a607a8bf6cd" sh -
+curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn K3S_URL=https://172.30.25.108:6443 K3S_TOKEN="K100ffe807e81c499b22a61ca54d7abe473a0d00e0e5dc7bc932bf59de175ad1ed4::server:1869897287675e5eadeaba7ab627e7f2" sh -
